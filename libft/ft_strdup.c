@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 14:39:51 by noumazza          #+#    #+#             */
-/*   Updated: 2014/02/02 15:36:03 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:18 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:18 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
 
 char	*ft_strdup(const char *s1)
+
 {
 	char	*cpy;
 	int		len;

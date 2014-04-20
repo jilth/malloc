@@ -5,11 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 19:43:28 by noumazza          #+#    #+#             */
-/*   Updated: 2014/02/02 15:37:37 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 {

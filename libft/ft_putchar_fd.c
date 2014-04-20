@@ -5,11 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/22 12:01:25 by noumazza          #+#    #+#             */
-/*   Updated: 2013/11/30 15:32:31 by noumazza         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 void	ft_putchar_fd(char c, int fd)
 {

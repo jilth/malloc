@@ -5,11 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 21:02:27 by noumazza          #+#    #+#             */
-/*   Updated: 2013/11/30 16:25:48 by noumazza         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 int	ft_toupper(int c)
 {

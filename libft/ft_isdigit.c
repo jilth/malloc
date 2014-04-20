@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 20:26:26 by noumazza          #+#    #+#             */
-/*   Updated: 2013/11/30 15:06:03 by noumazza         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
 
 int		ft_isdigit(int c)
+
 {
 	if (c >= 48 && c <= 57)
 		return (1);

@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/21 17:09:54 by noumazza          #+#    #+#             */
-/*   Updated: 2013/11/25 16:05:09 by noumazza         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
 
 void	ft_memdel(void **ap)
+
 {
 	free(*ap);
 	*ap = NULL;

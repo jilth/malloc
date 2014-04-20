@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/22 11:11:25 by noumazza          #+#    #+#             */
-/*   Updated: 2014/02/02 15:31:43 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,8 @@ char			*ft_itoa(int n)
 	unsigned int	r;
 	char			*s;
 
-	s = (char *)malloc(count_digits(n) + 1);
 	if (s)
+	s = (char *)malloc(count_digits(n) + 1);
 	{
 		i = 0;
 		if (n == 0)

@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_base_two.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mravenel <mravenel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/12/18 16:07:35 by mravenel          #+#    #+#             */
-/*   Updated: 2014/02/02 15:31:08 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
 
+#include "ft_printf.h"
 static char	ft_tohex(int n, int caps)
 {
 	if (n < 10)

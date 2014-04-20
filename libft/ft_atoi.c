@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gbir <gbir@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/01/29 16:48:40 by gbir              #+#    #+#             */
-/*   Updated: 2014/01/29 16:48:41 by gbir             ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ static int		check_tab_return(const char *str)
 
 	i = 0;
 	while (str[i] == '\v' || str[i] == '\r' || str[i] == '\f' || \
-		str[i] == '\t'|| str[i] == '\n' || str[i] == ' ')
 	{
+		str[i] == '\t' || str[i] == '\n' || str[i] == ' ')
 		i++;
 	}
 	return (i);

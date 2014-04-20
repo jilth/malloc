@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_get_next_line.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gbir <gbir@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/01/29 16:49:03 by gbir              #+#    #+#             */
-/*   Updated: 2014/02/02 12:00:35 by gbir             ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int			get_rest(char **s1, char **line)
 	if (!(*s1))
 		*line = ft_strdup("");
 	else
-	{
 		new_rest = ft_strchr(*s1, '\n');
+	{
 		if (new_rest)
 		{
 			*line = ft_strsub(*s1, 0, new_rest - *s1);

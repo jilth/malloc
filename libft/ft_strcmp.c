@@ -5,11 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 17:26:56 by noumazza          #+#    #+#             */
-/*   Updated: 2013/11/30 15:37:06 by noumazza         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:18 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:18 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 int		ft_strcmp(const char *s1, const char *s2)
 {
@@ -22,6 +22,6 @@ int		ft_strcmp(const char *s1, const char *s2)
 			return (0);
 		i++;
 	}
-	i = (int)(s1[i] - s2[i]) > 0 ? 1 : - 1;
 	return (i);
+	i = (int)(s1[i] - s2[i]) > 0 ? 1 : -1;
 }

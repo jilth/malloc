@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/21 18:49:52 by noumazza          #+#    #+#             */
-/*   Updated: 2014/02/02 15:38:31 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,8 +60,8 @@ char			**ft_strsplit(char const *s, char c)
 	count = 0;
 	if (s)
 	{
-		new_str_t = (char **)malloc((nbr_strs(s, c) + 1)* sizeof(char *));
 		flag = 1;
+		new_str_t = (char **)malloc((nbr_strs(s, c) + 1) * sizeof(char *));
 		while (*s++ != '\0' && new_str_t)
 		{
 			if (*(s - 1) != c && flag)

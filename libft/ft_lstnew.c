@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: longuyen <longuyen@student.42.fr>          +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/12/31 13:36:07 by longuyen          #+#    #+#             */
-/*   Updated: 2014/02/02 15:32:29 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ t_list		*ft_lstnew(void const *content, size_t content_size)
 	if (!new_elem)
 		return (NULL);
 	if (content)
-	{
 		new_elem->content = malloc(content_size);
+	{
 		ft_memcpy(new_elem->content, content, content_size);
 		new_elem->content_size = content_size;
 	}

@@ -5,11 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 14:30:42 by noumazza          #+#    #+#             */
-/*   Updated: 2013/12/31 13:38:12 by longuyen         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 int		ft_memcmp(const void *s1, const void *s2, size_t n)
 {

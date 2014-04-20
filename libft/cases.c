@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cases.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mravenel <mravenel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/12/22 15:13:19 by mravenel          #+#    #+#             */
-/*   Updated: 2014/02/01 17:15:55 by mravenel         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ int		cx_case(unsigned long int nb, t_att attr)
 	else
 		size += dot_case(attr, ft_strlen(str));
 	if (attr.sh == 1)
-	ft_putstr(str);
+		ft_putstr(str);
 	return (size);
 }
 

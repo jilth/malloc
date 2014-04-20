@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrev.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mravenel <mravenel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/12/18 12:09:07 by mravenel          #+#    #+#             */
-/*   Updated: 2014/02/01 17:15:15 by mravenel         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include "ft_printf.h"
-
 char	*ft_strrev(char *str)
+
 {
 	char	*s_cp;
 	size_t	i;

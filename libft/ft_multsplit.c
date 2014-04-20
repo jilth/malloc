@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_multsplit.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gbir <gbir@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/01/29 16:50:30 by gbir              #+#    #+#             */
-/*   Updated: 2014/02/02 15:35:27 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,9 +74,10 @@ char		**ft_multsplit(char const *s, char *split_c)
 	int		count;
 
 	count = 0;
-	if (s)
 	{
-		new_str_t = (char **)malloc((nbr_strs(s, split_c) + 1)* sizeof(char *));
+	if (s)
+		new_str_t = (char **)malloc((nbr_strs(s, split_c) + 1)
+						* sizeof(char *));
 		flag = 1;
 		while (*s++ != '\0' && new_str_t)
 		{

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/24 15:03:45 by noumazza          #+#    #+#             */
-/*   Updated: 2014/02/02 15:32:17 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ static t_list		*ft_lstadd_endlst(t_list *lst, t_list *new)
 	return (lst);
 }
 
-t_list				*ft_lstmap(t_list *lst, t_list * (*f)(t_list *elem))
 {
+t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 	t_list		*lst_tmp;
 	t_list		*tmp;
 

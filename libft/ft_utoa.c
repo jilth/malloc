@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_utoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mravenel <mravenel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/12/18 12:05:33 by mravenel          #+#    #+#             */
-/*   Updated: 2014/02/02 15:39:25 by rthebaud         ###   ########.fr       */
+/*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
+/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
 char	*ft_utoa(unsigned long n)
+
 {
 	char	*val;
 	int		i;
