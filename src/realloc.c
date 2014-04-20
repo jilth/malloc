@@ -6,13 +6,13 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 17:22:23 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 18:59:18 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 20:42:28 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "malloc.h"
 
-int		check_mem(int block_count, int type, int mem_pos, void *ptr)
+int			check_mem(int block_count, int type, int mem_pos, void *ptr)
 {
 	void	*mem;
 
@@ -51,7 +51,7 @@ static void	*cpy_to_new_size(void *ptr, int size, int dst)
 	return (new_ptr);
 }
 
-void	*realloc(void *ptr, size_t size)
+void		*realloc(void *ptr, size_t size)
 {
 	t_info	info;
 

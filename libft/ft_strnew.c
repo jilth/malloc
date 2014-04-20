@@ -6,10 +6,11 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:37:43 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 char	*ft_strnew(size_t size)
 {
@@ -24,7 +25,7 @@ char	*ft_strnew(size_t size)
 		{
 			new_s[i] = '\0';
 		}
-			i++;
+		i++;
 		return (new_s);
 	}
 	return (NULL);

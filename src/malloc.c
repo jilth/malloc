@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 03:51:54 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 19:34:52 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:33:49 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 #include "malloc.h"
 #include "libft.h"
 
-t_glob	g_g;
+t_glob		g_g;
 
-void	*set_ptr(t_info info, void *mem)
+void		*set_ptr(t_info info, void *mem)
 {
 	void	*ptr;
 
@@ -49,7 +49,6 @@ t_mem_inf	init_mem(int s_type, int size, int type)
 	t_mem_inf	tmp;
 	t_info		info;
 
-	printf("INIT MEM type %d\n", type);
 	g_g.max_allocs[type]++;
 	tmp.mem = mmap(0, s_type, PROT_READ | PROT_WRITE,
 			MAP_ANON | MAP_PRIVATE, -1, 0);
@@ -63,9 +62,9 @@ t_mem_inf	init_mem(int s_type, int size, int type)
 	return (tmp);
 }
 
-void	*malloc(size_t size)
+void		*malloc(size_t size)
 {
-	void *ptr;
+	void	*ptr;
 
 	if (size <= TINY_N)
 		ptr = tiny_malloc(size);
@@ -74,13 +73,4 @@ void	*malloc(size_t size)
 	else
 		ptr = large_malloc(size);
 	return (ptr);
-}
-
-int		main()
-{
-	int	t;
-
-	char *p = (char *)malloc(14);
-	show_alloc_mem();
-	return 0;
 }

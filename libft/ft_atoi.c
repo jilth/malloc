@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:24:23 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ static int		check_tab_return(const char *str)
 
 	i = 0;
 	while (str[i] == '\v' || str[i] == '\r' || str[i] == '\f' || \
-	{
 		str[i] == '\t' || str[i] == '\n' || str[i] == ' ')
+	{
 		i++;
 	}
 	return (i);

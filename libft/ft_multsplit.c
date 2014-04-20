@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:17 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:17 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:35:36 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,8 +74,8 @@ char		**ft_multsplit(char const *s, char *split_c)
 	int		count;
 
 	count = 0;
-	{
 	if (s)
+	{
 		new_str_t = (char **)malloc((nbr_strs(s, split_c) + 1)
 						* sizeof(char *));
 		flag = 1;

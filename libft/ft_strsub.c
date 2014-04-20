@@ -6,9 +6,11 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:19 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:27:53 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 

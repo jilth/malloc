@@ -6,9 +6,11 @@
 #    By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/04/20 21:00:19 by noumazza          #+#    #+#              #
-#    Updated: 2014/04/20 21:00:43 by noumazza         ###   ########.fr        #
+#    Updated: 2014/04/20 21:19:44 by noumazza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+NAME = libft.a
 
 SRC = 	ft_memset.c \
 		ft_printf.c \

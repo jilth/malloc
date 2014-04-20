@@ -6,10 +6,9 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:18 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:18 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:36:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int		ft_strcmp(const char *s1, const char *s2)
 {

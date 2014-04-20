@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:28:28 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,8 @@ char			*ft_itoa(int n)
 	unsigned int	r;
 	char			*s;
 
-	if (s)
 	s = (char *)malloc(count_digits(n) + 1);
+	if (s)
 	{
 		i = 0;
 		if (n == 0)

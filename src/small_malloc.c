@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 15:39:23 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 16:21:38 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 20:46:16 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	*scan_mem(int block_count, int size, int type, void *ptr)
 		{
 			ptr -= 8;
 			info.mem_pos = mem_pos;
-			ptr = set_ptr(info , ptr);
+			ptr = set_ptr(info, ptr);
 			return (ptr);
 		}
 		ptr += type;

@@ -6,7 +6,7 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 16:11:22 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 18:44:41 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 20:41:07 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 static	void	change_alloc_flag(void *ptr)
 {
-	char *tmp;
+	char	*tmp;
 
-	tmp =(char *)ptr - 1;
+	tmp = (char *)ptr - 1;
 	tmp[0] = 0;
 }
 
-void	free(void *ptr)
+void			free(void *ptr)
 {
 	t_info	info;
 

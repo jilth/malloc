@@ -6,12 +6,12 @@
 /*   By: noumazza <noumazza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/04/20 21:00:16 by noumazza          #+#    #+#             */
-/*   Updated: 2014/04/20 21:00:16 by noumazza         ###   ########.fr       */
+/*   Updated: 2014/04/20 21:34:55 by noumazza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "ft_printf.h"
+
 static char	ft_tohex(int n, int caps)
 {
 	if (n < 10)
